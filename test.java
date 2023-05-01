@@ -1,6 +1,6 @@
 //環境jdoodle
 import java.util.ArrayList; // import the ArrayList class
-public class MyClass {
+public class test{
     public static void main(String args[]) {
       ArrayList z= new ArrayList();
       z.add(10);
