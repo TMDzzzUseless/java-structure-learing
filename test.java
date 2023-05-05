@@ -1,4 +1,4 @@
-//環境jdoodle
+//環境jdoodle  url： https://www.jdoodle.com/online-java-compiler/
 import java.util.ArrayList; // import the ArrayList class
 public class test{
     public static void main(String args[]) {
