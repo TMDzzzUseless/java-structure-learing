@@ -53,6 +53,6 @@ public class MyClass {
     }  
 }  
 
-*/
-    *1
-*
+*/  
+    *1  
+*  
