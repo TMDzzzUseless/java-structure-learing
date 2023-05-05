@@ -45,8 +45,12 @@ java內稱為方法(method)
 可以無限向上呼叫  
 簡單方法製作：  
 public class MyClass {  
-    public int f(int n){
+    public int f(int n){  
+        for(int i=n,i>0,i--){  
+            i=i+1;  
+            return i;  
+        }  
+    }  
+}  
 
-    }
-}
 */
