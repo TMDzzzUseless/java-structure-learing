@@ -95,4 +95,5 @@ public class MyClass {
 |需額外記憶體|V|X|
 |簡單問題|V|V|
 |困難問題|V簡潔，debug困難|醜，debug簡單|
-|簡單問題時間複雜度|same|same|
+|問題時間複雜度|same|same|
+|設計|hard|easy|
