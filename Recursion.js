@@ -1,4 +1,4 @@
-public class MyClass {
+public class Recursion {
     public static int fibo(int n){
       //這個是n==0或n==1
       if(n==0||n==1) 
