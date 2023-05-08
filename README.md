@@ -72,11 +72,16 @@ f(n)=f(n-1)+(n-2)
 當n=0時ANS：0；n=1時ANS：1  
 最後程式為  
 ```
-public int fibo(int n){
-    if(n==0||n===1)
+public class MyClass {
+    public static int fibo(int n){
+    if(n==0||n==1)
         return n;
     else
         return fibo(n-1)+fibo(n-2);
+    }
+    public static void main(String args[]) {
+      System.out.println(fibo(10));
+    }
 }
 ```
 
