@@ -52,15 +52,17 @@ java內稱為方法(method)
 可以無限向上呼叫  
 簡單方法製作：
 ```
-public class MyClass {  
-    public int f(int n){  
-        for(int i=n,i>0,i--){  
-            i=i+1;  
-            return i;  
-        }  
+public class MyClass {
+    public static int f(int n){
+        int z=0;
+        for(int i=n;i>0;i--){
+            z=z+i;
+        }
+        return z;
     }
-    //呼叫程式執行
-    
+    public static void main(String args[]) {
+      System.out.println(f(10));
+    }
 }  
 ```
 遞迴中最有名的問題即為費氏數列：  
