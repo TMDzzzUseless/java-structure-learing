@@ -136,3 +136,4 @@ o                   o
 二元搜尋樹是指說，符合二元樹的特性，且每個節點都符合特定條件。  
 EX:  
 每個節點左邊的值都小於右邊的  
+![image](https://github.com/TMDzzzUseless/java-structure-learing/blob/617778a3e9ca41edd74e167d6a3ec76ed6c75107/READIMG/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9.jpg)
