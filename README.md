@@ -132,6 +132,11 @@ o                   o
 |  |    | |       |  \/    |
 0  0    0 0       0   0    0
 ```
+二元樹分：  
+嚴格二元樹：只有0、2節點  
+全滿二元樹：每層內節點都是2，葉節點都是滿的  
+非嚴謹二元樹：有0、1、2節點  
+![image](https://github.com/TMDzzzUseless/java-structure-learing/blob/c93757fdbd619723bf842db756189057de35bc65/READIMG/3%E7%A8%AE%E4%BA%8C%E5%85%83%E6%A8%B9.jpg)
 二元搜尋樹：  
 二元搜尋樹是指說，符合二元樹的特性，且每個節點都符合特定條件。  
 EX:  
