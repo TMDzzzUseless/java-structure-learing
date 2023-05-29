@@ -1,7 +1,7 @@
 # java-structure-learing
 JAVA LEARING  
 //Java structure  
-1. java basic "java基本語法"    
+*1. java basic "java基本語法"*    
 (1). 基本款   
 ```
 public class MyClass {  
@@ -43,7 +43,7 @@ i=2時，執行n=1，使n=1+1=n=2，輸出2
 i=1時，執行n=2，使n=2+1=n=3，輸出3  
  
 
-#遞迴Recursion(簡稱自己呼叫自己相關程式)  
+*遞迴Recursion(簡稱自己呼叫自己相關程式)*  
 程式模組(module)
 自己定義或別人寫好的程式包被導入當下的程式叫做模組  
 java內稱為方法(method)  
@@ -96,7 +96,7 @@ public class MyClass {
 |問題時間複雜度|same|same|
 |設計|hard|easy|
   
-遞迴有分直接遞迴與間接遞迴  
+*遞迴有分直接遞迴與間接遞迴*  
 直接遞迴是自己叫自己  
 間接遞迴是自己叫別人，別人在叫自己  
 
@@ -132,13 +132,22 @@ o                   o
 |  |    | |       |  \/    |
 0  0    0 0       0   0    0
 ```
-二元樹分：  
+*二元樹分：*  
 嚴格二元樹：只有0、2節點  
 全滿二元樹：每層內節點都是2，葉節點都是滿的  
 非嚴謹二元樹：有0、1、2節點  
 ![image](https://github.com/TMDzzzUseless/java-structure-learing/blob/c93757fdbd619723bf842db756189057de35bc65/READIMG/3%E7%A8%AE%E4%BA%8C%E5%85%83%E6%A8%B9.jpg)
-二元搜尋樹：  
+*二元搜尋樹：*     
 二元搜尋樹是指說，符合二元樹的特性，且每個節點都符合特定條件。  
 EX:  
 每個節點左邊的值都小於右邊的  
 ![image](https://github.com/TMDzzzUseless/java-structure-learing/blob/617778a3e9ca41edd74e167d6a3ec76ed6c75107/READIMG/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9.jpg)
+
+樹有可能退化成鏈結，因為只有一邊有節點  
+樹是由根、內節點、業節點(data)與連接點(link)所組成  
+*一般樹操作*  
+createTree(node root)  
+insertNode(node parent , node newNode)  
+remove(node x)  
+removeSubtree(node sub tree Root)  
+*一般樹轉二元樹*  
