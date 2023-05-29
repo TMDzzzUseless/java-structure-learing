@@ -152,3 +152,24 @@ remove(node x)
 removeSubtree(node sub tree Root)  
 *一般樹轉二元樹*  
 ![image](https://github.com/TMDzzzUseless/java-structure-learing/blob/bdfc5607d5c0253275182a3279672238b11a41d7/READIMG/%E4%B8%80%E8%88%AC%E6%A8%B9%E8%BD%892%E5%85%83%E6%A8%B9.jpg)
+***二元樹搜尋***
+上方圖為例(上方為最左邊)
+**橫向深度查詢**
+層序追蹤，依照二元樹，由每層由左而右向下搜尋。 
+ABCEFGDIH  
+**縱向深度搜尋**  
+前序追蹤，依照二元樹，由最上層最左節點向下搜尋，結束回到最後節點再向左搜尋。 
+ABEFICGDH  
+***中序追蹤***
+先拜訪最左子樹後，找到上一祖先節點的最下方子孫最左邊，依照最左節點依次訪問。  
+EBIFAGCHD  
+***後序追蹤***
+先拜訪最下層左子樹，在拜訪最下層右子樹，最後才拜訪根。
+IEFBHGDCA  
+***樹的簡單表示法***
+A(B(E,F(I)),C(G,D(H)))  
+
+
+
+
+
