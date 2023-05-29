@@ -151,3 +151,4 @@ insertNode(node parent , node newNode)
 remove(node x)  
 removeSubtree(node sub tree Root)  
 *一般樹轉二元樹*  
+![image](https://github.com/TMDzzzUseless/java-structure-learing/blob/bdfc5607d5c0253275182a3279672238b11a41d7/READIMG/%E4%B8%80%E8%88%AC%E6%A8%B9%E8%BD%892%E5%85%83%E6%A8%B9.jpg)
