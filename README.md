@@ -183,6 +183,12 @@ A(B(E,F(I)),C(G,D(H)))
 例子A{10,30,20,50,70,90,100}
 ![image](https://github.com/TMDzzzUseless/java-structure-learing/blob/4944ca23f01cfb6bd544b221259f8e1059690aff/READIMG/%E7%94%B1%E4%B8%8A%E8%80%8C%E4%B8%8B%E6%9C%80%E5%A4%A7%E5%A0%86%E7%A9%8D.JPG)  
 ![image](https://github.com/TMDzzzUseless/java-structure-learing/blob/ba095c3d5dcdb075600b7fbf1be5211d056e2ec5/READIMG/%E7%94%B1%E4%B8%8B%E8%80%8C%E4%B8%8A%E5%A0%86%E7%A9%8D%E6%B3%95.JPG)  
-
-
-
+***堆積優先佇列***  
+堆積優先佇列就是說將ROOT的資料拿出，由最下層的資料補進ROOT。  
+***堆積排序法***
+堆積罰蓄髮就是指說講陣列慘為二元樹後，在以最大或最小堆積轉化堆積樹的一種排列方式。  
+操作步驟：  
+1.將陣列轉為二元樹  
+2.調整為堆積樹     
+3.使用優先佇列將資料拿出把到新的矩陣內。  
+![image](https://github.com/TMDzzzUseless/java-structure-learing/blob/a9d662596aba3b0c56a0a07f51224feb3d3cbec9/READIMG/%E5%A0%86%E7%A9%8D%E6%8E%92%E5%BA%8F%E6%B3%95.JPG)
