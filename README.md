@@ -153,9 +153,9 @@ removeSubtree(node sub tree Root)
 *一般樹轉二元樹*  
 ![image](https://github.com/TMDzzzUseless/java-structure-learing/blob/bdfc5607d5c0253275182a3279672238b11a41d7/READIMG/%E4%B8%80%E8%88%AC%E6%A8%B9%E8%BD%892%E5%85%83%E6%A8%B9.jpg)
 ***二元樹搜尋***
-上方圖為例(上方為最左邊)
-**橫向深度查詢**
-層序追蹤，依照二元樹，由每層由左而右向下搜尋。 
+上方圖為例(上方為最左邊)  
+**橫向深度查詢**  
+層序追蹤，依照二元樹，由每層由左而右向下搜尋。   
 ABCEFGDIH  
 **縱向深度搜尋**  
 前序追蹤，依照二元樹，由最上層最左節點向下搜尋，結束回到最後節點再向左搜尋。 
@@ -177,3 +177,12 @@ A(B(E,F(I)),C(G,D(H)))
 ***樹的推積***  
 有最小堆積法、最大堆積法兩種  
 ![image](https://github.com/TMDzzzUseless/java-structure-learing/blob/3de2150768b4ba0dfc9308c1fd028f9e8cc38a93/READIMG/%E5%A0%86%E7%A9%8D%E5%9C%96.JPG)  
+**操作堆積方式**  
+1.由上而下  
+2.由下而上  
+例子A{10,30,20,50,70,90,100}
+![image](https://github.com/TMDzzzUseless/java-structure-learing/blob/4944ca23f01cfb6bd544b221259f8e1059690aff/READIMG/%E7%94%B1%E4%B8%8A%E8%80%8C%E4%B8%8B%E6%9C%80%E5%A4%A7%E5%A0%86%E7%A9%8D.JPG)  
+![image](https://github.com/TMDzzzUseless/java-structure-learing/blob/ba095c3d5dcdb075600b7fbf1be5211d056e2ec5/READIMG/%E7%94%B1%E4%B8%8B%E8%80%8C%E4%B8%8A%E5%A0%86%E7%A9%8D%E6%B3%95.JPG)  
+
+
+
