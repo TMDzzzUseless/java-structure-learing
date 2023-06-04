@@ -168,8 +168,12 @@ EBIFAGCHD
 IEFBHGDCA  
 ***樹的簡單表示法***
 A(B(E,F(I)),C(G,D(H)))  
-
-
-
-
-
+***霍曼夫編碼***  
+這是利用文章出現英文單字次數進行分類，這分類產生的編碼  
+採2元樹，次數越多，越接近根，以達到降低文件容量(比ASCII編碼)  
+***決策數***  
+決策數是一個由2種條件判斷是否的一種Z分法去表示  
+樹的深度越深，表示樹的模型越複雜  
+***樹的推積***  
+有最小堆積法、最大堆積法兩種  
+![image](https://github.com/TMDzzzUseless/java-structure-learing/blob/3de2150768b4ba0dfc9308c1fd028f9e8cc38a93/READIMG/%E5%A0%86%E7%A9%8D%E5%9C%96.JPG)  
