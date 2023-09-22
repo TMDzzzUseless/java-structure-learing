@@ -22,4 +22,35 @@ public class Recursion {
     public static void main(String args[]) {
       System.out.println(s(4));
     }
+
+    public static int gcd(int m , int n){
+        //宣告m1，n1
+        int m1;
+        int n1;
+        //使m,n(m大，n小)
+        if (m-n>=0){
+            m1=m;
+            n1=n;
+      }
+        else{
+            m1=n;
+            n1=m;
+        }
+        
+        //這個是n=0，最大就m了
+        if(n==0){ 
+            return m;
+        }
+        //這個是n=1，最大公因數為1
+        else if(n==1){ 
+            return n;
+        }
+        //互相除，可找出最大公因數
+        else{
+            return gcd(n1,m1%n1);
+        }
+    }
+    public static void main(String args[]) {
+      System.out.println(gcd(15,50));
+    }
 }
