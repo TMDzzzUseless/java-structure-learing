@@ -12,7 +12,7 @@ public class Recursion {
       System.out.println(fibo(10));
     }
 
-    //連續乘積[ans=1*3*5*7*...*(2n-3)*(2n-1)]
+    //連續乘積[s(n)=ans=1*3*5*7*...*(2n-3)*(2n-1)]
     public static int s(int n){
       //這個是n==0或n==1
       if(n==0||n==1) 
