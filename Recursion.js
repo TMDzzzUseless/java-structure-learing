@@ -1,5 +1,6 @@
 public class Recursion {
     //費波那切數列[1,1,2,3,5,8,13....]
+    //細胞分裂可以以fibo表示，起始1個細胞，1個月起使分2個，分裂後細胞休息，產出處列為費波那
     public static int fibo(int n){
       //這個是n==0或n==1
       if(n==0||n==1) 
